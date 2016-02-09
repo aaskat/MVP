@@ -1,0 +1,8 @@
+D:\repos\StoreAplication\StoreAplication\bin\Debug\StoreAplication.exe.config
+D:\repos\StoreAplication\StoreAplication\bin\Debug\StoreAplication.exe
+D:\repos\StoreAplication\StoreAplication\bin\Debug\StoreAplication.pdb
+D:\repos\StoreAplication\StoreAplication\obj\Debug\StoreAplication.csprojResolveAssemblyReference.cache
+D:\repos\StoreAplication\StoreAplication\obj\Debug\StoreAplication.exe
+D:\repos\StoreAplication\StoreAplication\obj\Debug\StoreAplication.pdb
+D:\repos\StoreAplication\StoreAplication\obj\Debug\StoreAplication.View.MainView.resources
+D:\repos\StoreAplication\StoreAplication\obj\Debug\StoreAplication.csproj.GenerateResource.Cache
