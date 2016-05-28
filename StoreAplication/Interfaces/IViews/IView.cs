@@ -1,4 +1,4 @@
-﻿namespace StoreAplication.Interfaces.View
+﻿namespace StoreAplication.Interfaces.IViews
 {
     public interface IView<in TCallbacks>
     {

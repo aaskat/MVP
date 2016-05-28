@@ -1,21 +1,21 @@
 ﻿using System;
 using System.Windows.Forms;
-using StoreAplication.Presenter;
-using StoreAplication.View;
+using StoreAplication.Presenters;
+using StoreAplication.Repositories;
+using StoreAplication.Views;
 
 namespace StoreAplication
 {
-    static class Program
+    internal static class Program
     {
         [STAThread]
-        static void Main()
+        private static void Main()
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            var presenter = new MainPresenter(new MainView());
+            var presenter = new MainPresenter(new MainView(), new MainRepository(new StoreAplicationContext()));
             presenter.Run();
             Application.Run();
-            
         }
     }
 }

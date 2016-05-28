@@ -1,5 +1,6 @@
+using System.Collections.Generic;
 using System.Linq;
-using StoreAplication.Model;
+using StoreAplication.Models;
 
 namespace Persistence.Migrations
 {
@@ -22,12 +23,37 @@ namespace Persistence.Migrations
 
         private void SeedProduct(StoreAplicationContext context)
         {
-            var product = new Product
+            var products = new List<Product>()
             {
-                Name = "Aplle",
-                Cost = 45
+                new Product
+                {
+                    Name = "Apple",
+                    Cost = 45,
+                    Amount = 100
+                },
+                new Product
+                {
+                    Name = "Apricot",
+                    Cost = 45,
+                    Amount = 100
+                },
+                new Product
+                {
+                    Name = "Cherry",
+                    Cost = 45,
+                    Amount = 10
+                },
+                new Product
+                {
+                    Name = "Strawberries",
+                    Cost = 50,
+                    Amount = 100
+                },
             };
-            context.Products.Add(product);
+            foreach (var product in products)
+            {
+                context.Products.Add(product);
+            }
         }
     }
 }

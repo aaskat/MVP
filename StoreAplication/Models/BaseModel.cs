@@ -1,4 +1,4 @@
-﻿namespace StoreAplication.Model
+﻿namespace StoreAplication.Models
 {
     public class BaseModel
     {

@@ -1,11 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
-VisualStudioVersion = 14.0.24720.0
+VisualStudioVersion = 14.0.25123.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StoreAplication", "StoreAplication\StoreAplication.csproj", "{D0088F0A-C9E9-46B7-89D9-CC8636E67ED0}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Persistence", "Persistence\Persistence.csproj", "{43E56B40-E031-4C07-9A3F-D83BDD0B35CA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,10 +15,6 @@ Global
 		{D0088F0A-C9E9-46B7-89D9-CC8636E67ED0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D0088F0A-C9E9-46B7-89D9-CC8636E67ED0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D0088F0A-C9E9-46B7-89D9-CC8636E67ED0}.Release|Any CPU.Build.0 = Release|Any CPU
-		{43E56B40-E031-4C07-9A3F-D83BDD0B35CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{43E56B40-E031-4C07-9A3F-D83BDD0B35CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{43E56B40-E031-4C07-9A3F-D83BDD0B35CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{43E56B40-E031-4C07-9A3F-D83BDD0B35CA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

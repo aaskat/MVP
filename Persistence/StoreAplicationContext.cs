@@ -1,5 +1,5 @@
 ﻿using System.Data.Entity;
-using StoreAplication.Model;
+using StoreAplication.Models;
 
 namespace Persistence
 {

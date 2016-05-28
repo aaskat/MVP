@@ -1,8 +1,10 @@
-﻿using System.Windows.Forms;
-using StoreAplication.Interfaces.Presenter;
-using StoreAplication.Interfaces.View;
+﻿using System.Collections.Generic;
+using System.Windows.Forms;
+using StoreAplication.Interfaces.IPresenters;
+using StoreAplication.Interfaces.IViews;
+using StoreAplication.Models;
 
-namespace StoreAplication.View
+namespace StoreAplication.Views
 {
     public partial class MainView : Form, IMainView
     {
@@ -14,6 +16,11 @@ namespace StoreAplication.View
         public void Attach(IMainPresenterCallbacks presenterCallbacks)
         {
             //throw new NotImplementedException();
+        }
+
+        public void SetProducts(List<Product> products)
+        {
+            _productObjectListView.SetObjects(products);
         }
     }
 }

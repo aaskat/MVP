@@ -1,16 +1,21 @@
 ﻿using System;
-using StoreAplication.Interfaces.Presenter;
-using StoreAplication.Interfaces.View;
+using System.Linq;
+using StoreAplication.Interfaces.IPresenters;
+using StoreAplication.Interfaces.IRepositories;
+using StoreAplication.Interfaces.IViews;
 
-namespace StoreAplication.Presenter
+namespace StoreAplication.Presenters
 {
     public class MainPresenter : IMainPresenter, IMainPresenterCallbacks
     {
-        private IMainView _view;
+        private IMainRepository _repository;
+        private readonly IMainView _view;
 
-        public MainPresenter(IMainView view)
+        public MainPresenter(IMainView view, 
+            IMainRepository repository)
         {
             _view = view;
+            _repository = repository;
         }
 
         public object View
@@ -32,6 +37,8 @@ namespace StoreAplication.Presenter
         {
             _view.Attach(this);
             _view.Show();
+            var products = _repository.GetAll().ToList();
+            _view.SetProducts(products);
         }
     }
 }

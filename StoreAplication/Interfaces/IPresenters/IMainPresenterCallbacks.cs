@@ -1,4 +1,4 @@
-﻿namespace StoreAplication.Interfaces.Presenter
+﻿namespace StoreAplication.Interfaces.IPresenters
 {
     public interface IMainPresenterCallbacks
     {

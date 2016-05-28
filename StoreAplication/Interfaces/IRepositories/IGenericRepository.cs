@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq.Expressions;
-using StoreAplication.Model;
+using StoreAplication.Models;
 
-namespace StoreAplication.Interfaces.Repository
+namespace StoreAplication.Interfaces.IRepositories
 {
     public interface IGenericRepository<T> : IDisposable where T : BaseModel
     {

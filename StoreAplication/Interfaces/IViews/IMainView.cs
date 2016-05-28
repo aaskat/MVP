@@ -1,9 +1,11 @@
-﻿using StoreAplication.Interfaces.Presenter;
+﻿using System.Collections.Generic;
+using StoreAplication.Interfaces.IPresenters;
+using StoreAplication.Models;
 
-namespace StoreAplication.Interfaces.View
+namespace StoreAplication.Interfaces.IViews
 {
     public interface IMainView : IView<IMainPresenterCallbacks>
     {
-
+        void SetProducts(List<Product> products);
     }
 }
