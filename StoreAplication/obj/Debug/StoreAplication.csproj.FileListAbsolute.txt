@@ -6,3 +6,6 @@ D:\repos\StoreAplication\StoreAplication\obj\Debug\StoreAplication.exe
 D:\repos\StoreAplication\StoreAplication\obj\Debug\StoreAplication.pdb
 D:\repos\StoreAplication\StoreAplication\obj\Debug\StoreAplication.View.MainView.resources
 D:\repos\StoreAplication\StoreAplication\obj\Debug\StoreAplication.csproj.GenerateResource.Cache
+D:\repos\MVP\StoreAplication\bin\Debug\StoreAplication.exe.config
+D:\repos\MVP\StoreAplication\obj\Debug\StoreAplication.exe
+D:\repos\MVP\StoreAplication\obj\Debug\StoreAplication.pdb
